@@ -923,7 +923,7 @@ function file_video(path) {
     var decodename = unescape(name);
     var caption = name.slice(0, name.lastIndexOf('.'))
     var path = path;
-    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     var urlvlc = url.replace(new RegExp('\\[', 'g'), '%5B').replace(new RegExp('\\]', 'g'), '%5D');
     var url_without_https = url.replace(/^(https?:|)\/\//, '')
     var url_base64 = btoa(url)
