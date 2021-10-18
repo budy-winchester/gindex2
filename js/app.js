@@ -800,7 +800,7 @@ function file_others(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-      <a href="${url}" type="button" class="btn btn-primary">Download</a>
+      <a href="${url}" type="button" class="btn btn-primary">Unduh</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
       </button>
@@ -810,7 +810,7 @@ function file_others(path) {
         <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
       </div>
   </div>
-  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
+  <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Salin</span> </button>
   </div>
   <br></div>`;
                 }
@@ -870,14 +870,14 @@ function file_code(path) {
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" id="dlurl" value="Unduh seperlunya dan bantu sebarkan untuk bantu admin">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-      <a href="${url}" type="button" class="btn btn-primary">Download</a>
+      <a href=https://ouo.io/qs/ARlk1o6H?s="${url}" type="button" class="btn btn-primary">Unduh</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
       </button>
@@ -1460,12 +1460,12 @@ function copyFunction() {
     var copyText = document.getElementById("dlurl");
     copyText.select();
     copyText.setSelectionRange(0, 99999);
-    document.execCommand("copy");
+    document.execCommand("salin");
     var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copied";
+    tooltip.innerHTML = "Disalin";
 }
 
 function outFunc() {
     var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copy";
+    tooltip.innerHTML = "Salin";
 }
