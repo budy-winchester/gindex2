@@ -1178,7 +1178,7 @@ function file_pdf(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
   <input type="text" class="form-control" id="dlurl" value="${url}">
 </div>
@@ -1286,7 +1286,7 @@ function file_image(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
   <input type="text" class="form-control" id="dlurl" value="${url}">
 </div>
