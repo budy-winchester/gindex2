@@ -762,7 +762,7 @@ function file_others(path) {
     var decodename = unescape(name);
     var ext = name.split('.').pop().toLowerCase();
     var path = path;
-    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     $.post("",
         function(data) {
             try {
@@ -793,7 +793,7 @@ function file_others(path) {
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
   <input type="text" class="form-control" id="dlurl" value="${url}">
 </div>
@@ -851,7 +851,7 @@ function file_code(path) {
     var decodename = unescape(name);
     var ext = name.split('.').pop().toLowerCase();
     var path = path;
-    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     $.post("",
         function(data) {
             try {
@@ -968,13 +968,13 @@ ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
   <input type="text" class="form-control" id="dlurl" value="${url}">
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
-    <a href="${url}" type="button" class="btn btn-primary">Download</a>
+    <a href="${url}" type="button" class="btn btn-primary">Unduh</a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
     </button>
@@ -992,7 +992,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
       <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
     </div>
 </div>
-<button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
+<button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Salin</span> </button>
 <br>
   </div>
   </div>
@@ -1023,7 +1023,7 @@ function file_audio(path) {
     var name = path.split('/').pop();
     var decodename = unescape(name);
     var path = path;
-    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     $.post("",
         function(data) {
             try {
@@ -1048,14 +1048,14 @@ function file_audio(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">Full URL</span>
+    <span class="input-group-text" id="">Note</span>
   </div>
   <input type="text" class="form-control" id="dlurl" value="${url}">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-      <a href="${url}" type="button" class="btn btn-primary">Download</a>
+      <a href="${url}" type="button" class="btn btn-primary">Unduh</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
       </button>
