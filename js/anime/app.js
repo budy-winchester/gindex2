@@ -795,7 +795,7 @@ function file_others(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share https://anime.koleksi.workers.dev ya terimakasih. ">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -872,7 +872,7 @@ function file_code(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share https://anime.koleksi.workers.dev ya terimakasih.">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -970,7 +970,7 @@ ${UI.disable_video_download ? `` : `
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share https://anime.koleksi.workers.dev ya terimakasih.">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
@@ -1050,7 +1050,7 @@ function file_audio(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share https://anime.koleksi.workers.dev ya terimakasih.">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -1180,7 +1180,7 @@ function file_pdf(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -1288,7 +1288,7 @@ function file_image(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share https://anime.koleksi.workers.dev ya terimakasih.">
+  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
