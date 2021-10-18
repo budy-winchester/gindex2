@@ -762,7 +762,7 @@ function file_others(path) {
     var decodename = unescape(name);
     var ext = name.split('.').pop().toLowerCase();
     var path = path;
-    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     $.post("",
         function(data) {
             try {
@@ -795,12 +795,12 @@ function file_others(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" id="dlurl" value="bantu share">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-      <a href="${url}" type="button" class="btn btn-primary">Unduh</a>
+      <a href="https://ouo.io/qs/ARlk1o6H?s=${url}" type="button" class="btn btn-primary">Unduh</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
       </button>
@@ -851,7 +851,7 @@ function file_code(path) {
     var decodename = unescape(name);
     var ext = name.split('.').pop().toLowerCase();
     var path = path;
-    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     $.post("",
         function(data) {
             try {
@@ -923,7 +923,7 @@ function file_video(path) {
     var decodename = unescape(name);
     var caption = name.slice(0, name.lastIndexOf('.'))
     var path = path;
-    var url = 'https://ouo.io/api/ARlk1o6H?s=' + UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
+    var url = UI.second_domain_for_dl ? UI.downloaddomain + path : window.location.origin + path;
     var urlvlc = url.replace(new RegExp('\\[', 'g'), '%5B').replace(new RegExp('\\]', 'g'), '%5D');
     var url_without_https = url.replace(/^(https?:|)\/\//, '')
     var url_base64 = btoa(url)
@@ -970,11 +970,11 @@ ${UI.disable_video_download ? `` : `
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" id="dlurl" value="bantu share">
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
-    <a href="${url}" type="button" class="btn btn-primary">Unduh</a>
+    <a href="https://ouo.io/api/ARlk1o6H?s=${url}" type="button" class="btn btn-primary">Unduh</a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
     </button>
