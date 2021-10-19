@@ -804,8 +804,9 @@ function file_others(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button>
   </div>
-  
-  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+  <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
   <br></div>`;
                 }
             } catch (err) {
@@ -874,8 +875,9 @@ function file_code(path) {
       <a href=https://ouo.io/qs/ARlk1o6H?s="https://ouo.io/qs/ARlk1o6H?s=${url}" type="button" class="btn btn-primary"> Unduh </a>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button></div><br></div>
-
-<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+  <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js" integrity="sha256-fZOd7N/oofoKcO92RzxvC0wMm+EvsKyRT4nmcmQbgzU=" crossorigin="anonymous"></script>
 `;
             } catch (err) {
@@ -965,8 +967,9 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
     <a href="https://ouo.io/qs/ARlk1o6H?s=${url}" type="button" class="btn btn-primary"> Unduh </a>
 </div>
 <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button>
-
-<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+  <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
 <br>
   </div>
   </div>
@@ -1033,8 +1036,9 @@ function file_audio(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button></div><br>
   </div>
-
-<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+  <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
 </div>
   </div>
   `;
@@ -1158,9 +1162,10 @@ function file_pdf(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button></div><br>
   </div>
   </div>
-  
-  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
-  </div>
+    <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
+</div>
   `;
             } catch (err) {
                 var content = `
@@ -1260,9 +1265,10 @@ function file_image(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> Salin </span> </button></div><br>
   </div>
  </div>
- 
- <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
-  </div>
+   <div class="card-body text-center">
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">Bantu admin dengan cara klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+</div>
+</div>
     `;
             } catch (err) {
                 var content = `
