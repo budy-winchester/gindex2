@@ -795,7 +795,7 @@ function file_others(path) {
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Note</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="Bantu share situs https://budy.hartawan.workers.dev ya terimakasih. ">
+  <input type="text" class="form-control" id="dlurl" value="Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih. ">
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -804,6 +804,7 @@ function file_others(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Salin</span> </button>
   </div>
+  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
   <br></div>`;
                 }
             } catch (err) {
@@ -872,6 +873,7 @@ function file_code(path) {
       <a href=https://ouo.io/qs/ARlk1o6H?s="https://ouo.io/qs/ARlk1o6H?s=${url}" type="button" class="btn btn-primary">Unduh</a>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br></div>
+  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js" integrity="sha256-fZOd7N/oofoKcO92RzxvC0wMm+EvsKyRT4nmcmQbgzU=" crossorigin="anonymous"></script>
 `;
             } catch (err) {
@@ -961,6 +963,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
     <a href="https://ouo.io/qs/ARlk1o6H?s=${url}" type="button" class="btn btn-primary">Unduh</a>
 </div>
 <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Salin</span> </button>
+  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
 <br>
   </div>
   </div>
@@ -1027,6 +1030,7 @@ function file_audio(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
   </div>
   </div>
   `;
@@ -1149,6 +1153,7 @@ function file_pdf(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
+  <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
   </div>
   </div>
   `;
@@ -1249,7 +1254,8 @@ function file_image(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
-  </div>
+   <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 0; text-align: justify; line-height: 23px; color: #1a356e; font-size: 18px">Bantu admin dengan klik iklan dan share situs https://budy.hartawan.workers.dev terimakasih.</p>
+ </div>
   </div>
     `;
             } catch (err) {
