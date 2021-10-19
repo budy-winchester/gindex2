@@ -187,8 +187,8 @@ function nav(path) {
     var search_bar = `
 </ul>
 <form class="d-flex" method="get" action="/${cur}:search">
-<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="${search_text}" required>
-<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+<input class="form-control me-2" name="q" type="search" placeholder="Pencarian" aria-label="Search" value="${search_text}" required>
+<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit"> Cari </button>
 </form>
 </div>
 </div>
@@ -514,7 +514,7 @@ function render_search_result_list() {
     var content = `
   <div class="container"><br>
   <div class="card">
-  <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0;">Search Results</div>
+  <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0;">Hasil Pencarian</div>
   <div id="list" class="list-group text-break">
   </div>
   </div>
