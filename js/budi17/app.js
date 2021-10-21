@@ -806,7 +806,7 @@ function file_others(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button>
   </div>
   <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
 </div>
   <br></div>`;
                 }
@@ -877,8 +877,8 @@ function file_code(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button></div><br></div>
   <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
-</div>
+    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js" integrity="sha256-fZOd7N/oofoKcO92RzxvC0wMm+EvsKyRT4nmcmQbgzU=" crossorigin="anonymous"></script>
 `;
             } catch (err) {
@@ -969,7 +969,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
 </div>
 <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button>
   <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
+<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
 </div>
 <br>
   </div>
@@ -1038,7 +1038,7 @@ function file_audio(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button></div><br>
   </div>
   <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
+<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
 </div>
 </div>
   </div>
@@ -1164,7 +1164,7 @@ function file_pdf(path) {
   </div>
   </div>
     <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
+<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
 </div>
 </div>
   `;
@@ -1267,7 +1267,7 @@ function file_image(path) {
   </div>
  </div>
    <div class="card-body text-center">
-    <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: left; line-height: 23px; color: #faf8f7; font-size: 18px">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</p>
+<p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><blink>SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</blink></p>
 </div>
 </div>
     `;
