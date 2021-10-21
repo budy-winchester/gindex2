@@ -3083,8 +3083,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #333;
-  border-color: #333;
+  background-color: #0f00e6;
+  border-color: #0c00ba;
 }
 
 .btn-primary:hover {
