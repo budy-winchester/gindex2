@@ -806,7 +806,7 @@ function file_others(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button>
   </div>
     <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
   <div class="card-body text-center">
     <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
@@ -880,7 +880,7 @@ function file_code(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button></div><br></div>
     <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
   <div class="card-body text-center">
     <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
@@ -975,7 +975,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
 </div>
 <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button>
   <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
   <div class="card-body text-center">
 <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
@@ -1047,7 +1047,7 @@ function file_audio(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip"> SALIN </span> </button></div>
   </div>
     <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
   <div class="card-body text-center">
 <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
@@ -1176,7 +1176,7 @@ function file_pdf(path) {
   </div>
   </div>
     <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
     <div class="card-body text-center">
 <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
@@ -1282,7 +1282,7 @@ function file_image(path) {
   </div>
  </div>
    <div class="card-body text-center">
-<a href="https://trakteer.id/budi-hartawan-cgywh" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
+<a href="https://trakteer.id/budi-hartawan-cgywh?quantity=1" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" style="border: 0px none; height: 30px;" alt="Trakteer Saya" height="30"></a>
 </div>
    <div class="card-body text-center">
 <p style="border: dashed 2px #ee3f10; padding: 15px; margin: 10; text-align: justify; line-height: 23px; color: #e3141b; font-size: 18px"><span class="blink">SUPPORT ADMIN DENGAN CARA KLIK IKLAN DAN SHARE KOLOM LINK DIATAS TERIMA KASIH.</span></p>
