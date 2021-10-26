@@ -970,6 +970,7 @@ ${UI.disable_video_download ? `` : `
       <span class="sr-only"></span>
     </button>
     <div class="dropdown-menu">
+      <a class="dropdown-item" href="intent:${url}#Intent;package=com.dv.adm;S.title=${decodename};end">ADM</a>
       <a class="dropdown-item" href="iina://weblink?url=${url}">IINA</a>
       <a class="dropdown-item" href="potplayer://${url}">PotPlayer</a>
       <a class="dropdown-item" href="vlc://${urlvlc}">VLC</a>
