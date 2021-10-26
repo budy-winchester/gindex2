@@ -955,8 +955,8 @@ function file_video(path) {
   <div class="text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
-    <source src="https://database.koleksi.workers.dev${path}" type="video/mp4" />
-    <source src="https://database.koleksi.workers.dev${path}" type="video/webm" />
+    <source src="https://dl.koleksi.workers.dev${path}" type="video/mp4" />
+    <source src="https://dl.koleksi.workers.dev${path}" type="video/webm" />
     <track kind="captions" label="Default" src="${caption}.vtt" srclang="en" />
     <track kind="captions" label="English" src="${caption}.en.vtt" srclang="en" default />
     <track kind="captions" label="Hindi" src="${caption}.hi.vtt" srclang="hi" />
@@ -1043,8 +1043,8 @@ function file_audio(path) {
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <br><img draggable="false" src="${UI.audioposter}" width="100%" /><br>
   <audio id="vplayer" width="100%" playsinline controls>
-    <source src="https://database.koleksi.workers.dev${path}" type="audio/ogg">
-    <source src="https://database.koleksi.workers.dev${path}" type="audio/mpeg">
+    <source src="https://dl.koleksi.workers.dev${path}" type="audio/ogg">
+    <source src="https://dl.koleksi.workers.dev${path}" type="audio/mpeg">
   Your browser does not support the audio element.
   </audio>
   </div>
