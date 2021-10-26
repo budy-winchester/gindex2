@@ -965,7 +965,7 @@ ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div class="input-group mb-4">
 <div class="btn-group text-center">
-    <a href=""intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${decodename};end"" type="button" class="btn btn-primary"><i class="fa fa-play-circle faa-tada animated" style="font-size:24px;color:red">PLAY</i></a>
+    <a href="intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${decodename};end" type="button" class="btn btn-primary"><i class="fa fa-play-circle faa-tada animated" style="font-size:24px;color:red"></i></a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
     </button>
